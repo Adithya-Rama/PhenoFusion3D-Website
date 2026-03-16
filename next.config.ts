@@ -1,8 +1,14 @@
 import type { NextConfig } from "next";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 const nextConfig: NextConfig = {
+  output: "export",
+  basePath: basePath || undefined,
+  assetPrefix: basePath ? `${basePath}/` : undefined,
+  trailingSlash: true,
   images: {
-    domains: ["images.unsplash.com", "upload.wikimedia.org", "www.plantphenomics.org.au"],
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
