@@ -1,0 +1,1174 @@
+[00:00:01.330] Server  LOG     
+[00:00:01.330] Server  LOG       We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:01.330] Server  LOG       The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:01.330] Server  LOG       	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:01.330] Server  LOG     
+[00:00:01.331] Server  LOG       The following mandatory changes were made to your tsconfig.json:
+
+[00:00:01.331] Server  LOG       	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:01.331] Server  LOG     
+[00:00:01.441] Server  LOG     ✓ Ready in 1058ms
+[00:00:09.327] Server  LOG     ○ Compiling / ...
+[00:00:12.574] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="page.tsx">
+      <SegmentTrieNode>
+      <Home>
+        <main className="relative">
+          <Navbar>
+          <Hero>
+          <About>
+          <Features>
+          <Pipeline>
+          ...
+            <div className="relative z...">
+              <div>
+              <motion.div initial={{opacity:0,y:60}} animate={{}} transition={{duration:0.9, ...}} ...>
+                <div className="rounded-2x..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                  <div>
+                  <div className="grid grid-...">
+                    <div>
+                    <div className="lg:col-spa...">
+                      <div>
+                      <div>
+                      <div className="absolute i...">
+                        <div className="relative w...">
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:2.6, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "35.00582824354631%"
+-                               left: "35.0058%"
++                               top: "34.86234886964094%"
+-                               top: "34.8623%"
++                               backgroundColor: "hsl(178.5, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(178.5, 70%, 55%)"
+-                               background-color: "rgb(60, 221, 217)"
+-                               box-shadow: "rgb(60, 221, 217) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:2.6, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "41.78459383389135%"
+-                               left: "41.7846%"
++                               top: "40.81933232477657%"
+-                               top: "40.8193%"
++                               backgroundColor: "hsl(198.5, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(198.5, 70%, 55%)"
+-                               background-color: "rgb(60, 171, 221)"
+-                               box-shadow: "rgb(60, 171, 221) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:3.2, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "91.2914926749384%"
+-                               left: "91.2915%"
++                               top: "55.320715306863%"
+-                               top: "55.3207%"
++                               backgroundColor: "hsl(232, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(232, 70%, 55%)"
+-                               background-color: "rgb(60, 81, 221)"
+-                               box-shadow: "rgb(60, 81, 221) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:2.3, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "59.19158976104133%"
+-                               left: "59.1916%"
++                               top: "43.62156865383017%"
+-                               top: "43.6216%"
++                               backgroundColor: "hsl(233, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(233, 70%, 55%)"
+-                               background-color: "rgb(60, 79, 221)"
+-                               box-shadow: "rgb(60, 79, 221) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:3.2, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "71.43518571637532%"
+-                               left: "71.4352%"
++                               top: "43.63274660509907%"
+-                               top: "43.6327%"
++                               backgroundColor: "hsl(239.5, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(239.5, 70%, 55%)"
+-                               background-color: "rgb(60, 61, 221)"
+-                               box-shadow: "rgb(60, 61, 221) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          ...
+                      ...
+              ...
+          ...
+
+[00:01:24.616] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="page.tsx">
+      <SegmentTrieNode>
+      <Home>
+        <main className="relative">
+          <Navbar>
+          <Hero>
+          <About>
+          <Features>
+          <Pipeline>
+          ...
+            <div className="relative z...">
+              <div>
+              <motion.div initial={{opacity:0,y:60}} animate={{}} transition={{duration:0.9, ...}} ...>
+                <div className="rounded-2x..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                  <div>
+                  <div className="grid grid-...">
+                    <div>
+                    <div className="lg:col-spa...">
+                      <div>
+                      <div>
+                      <div className="absolute i...">
+                        <div className="relative w...">
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:2.6, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "35.00582824354631%"
+-                               left: "35.0058%"
++                               top: "34.86234886964094%"
+-                               top: "34.8623%"
++                               backgroundColor: "hsl(178.5, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(178.5, 70%, 55%)"
+-                               background-color: "rgb(60, 221, 217)"
+-                               box-shadow: "rgb(60, 221, 217) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:2.6, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "41.78459383389135%"
+-                               left: "41.7846%"
++                               top: "40.81933232477657%"
+-                               top: "40.8193%"
++                               backgroundColor: "hsl(198.5, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(198.5, 70%, 55%)"
+-                               background-color: "rgb(60, 171, 221)"
+-                               box-shadow: "rgb(60, 171, 221) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:3.2, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "91.2914926749384%"
+-                               left: "91.2915%"
++                               top: "55.320715306863%"
+-                               top: "55.3207%"
++                               backgroundColor: "hsl(232, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(232, 70%, 55%)"
+-                               background-color: "rgb(60, 81, 221)"
+-                               box-shadow: "rgb(60, 81, 221) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:2.3, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "59.19158976104133%"
+-                               left: "59.1916%"
++                               top: "43.62156865383017%"
+-                               top: "43.6216%"
++                               backgroundColor: "hsl(233, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(233, 70%, 55%)"
+-                               background-color: "rgb(60, 79, 221)"
+-                               box-shadow: "rgb(60, 79, 221) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:3.2, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "71.43518571637532%"
+-                               left: "71.4352%"
++                               top: "43.63274660509907%"
+-                               top: "43.6327%"
++                               backgroundColor: "hsl(239.5, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(239.5, 70%, 55%)"
+-                               background-color: "rgb(60, 61, 221)"
+-                               box-shadow: "rgb(60, 61, 221) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          ...
+                      ...
+              ...
+          ...
+
+[00:01:50.239] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="page.tsx">
+      <SegmentTrieNode>
+      <Home>
+        <main className="relative">
+          <Navbar>
+          <Hero>
+          <About>
+          <Features>
+          <Pipeline>
+          ...
+            <div className="relative z...">
+              <div>
+              <motion.div initial={{opacity:0,y:60}} animate={{}} transition={{duration:0.9, ...}} ...>
+                <div className="rounded-2x..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                  <div>
+                  <div className="grid grid-...">
+                    <div>
+                    <div className="lg:col-spa...">
+                      <div>
+                      <div>
+                      <div className="absolute i...">
+                        <div className="relative w...">
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:2.6, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "35.00582824354631%"
+-                               left: "35.0058%"
++                               top: "34.86234886964094%"
+-                               top: "34.8623%"
++                               backgroundColor: "hsl(178.5, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(178.5, 70%, 55%)"
+-                               background-color: "rgb(60, 221, 217)"
+-                               box-shadow: "rgb(60, 221, 217) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:2.6, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "41.78459383389135%"
+-                               left: "41.7846%"
++                               top: "40.81933232477657%"
+-                               top: "40.8193%"
++                               backgroundColor: "hsl(198.5, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(198.5, 70%, 55%)"
+-                               background-color: "rgb(60, 171, 221)"
+-                               box-shadow: "rgb(60, 171, 221) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:3.2, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "91.2914926749384%"
+-                               left: "91.2915%"
++                               top: "55.320715306863%"
+-                               top: "55.3207%"
++                               backgroundColor: "hsl(232, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(232, 70%, 55%)"
+-                               background-color: "rgb(60, 81, 221)"
+-                               box-shadow: "rgb(60, 81, 221) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:2.3, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "59.19158976104133%"
+-                               left: "59.1916%"
++                               top: "43.62156865383017%"
+-                               top: "43.6216%"
++                               backgroundColor: "hsl(233, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(233, 70%, 55%)"
+-                               background-color: "rgb(60, 79, 221)"
+-                               box-shadow: "rgb(60, 79, 221) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:3.2, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "71.43518571637532%"
+-                               left: "71.4352%"
++                               top: "43.63274660509907%"
+-                               top: "43.6327%"
++                               backgroundColor: "hsl(239.5, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(239.5, 70%, 55%)"
+-                               background-color: "rgb(60, 61, 221)"
+-                               box-shadow: "rgb(60, 61, 221) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          ...
+                      ...
+              ...
+          ...
+
+[00:06:00.810] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="page.tsx">
+      <SegmentTrieNode>
+      <Home>
+        <main className="relative">
+          <Navbar>
+          <Hero>
+          <About>
+          <Features>
+          <Pipeline>
+          ...
+            <div className="relative z...">
+              <div>
+              <motion.div initial={{opacity:0,y:60}} animate={{}} transition={{duration:0.9, ...}} ...>
+                <div className="rounded-2x..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                  <div>
+                  <div className="grid grid-...">
+                    <div>
+                    <div className="lg:col-spa...">
+                      <div>
+                      <div>
+                      <div className="absolute i...">
+                        <div className="relative w...">
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:2.6, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "35.00582824354631%"
+-                               left: "35.0058%"
++                               top: "34.86234886964094%"
+-                               top: "34.8623%"
++                               backgroundColor: "hsl(178.5, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(178.5, 70%, 55%)"
+-                               background-color: "rgb(60, 221, 217)"
+-                               box-shadow: "rgb(60, 221, 217) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:2.6, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "41.78459383389135%"
+-                               left: "41.7846%"
++                               top: "40.81933232477657%"
+-                               top: "40.8193%"
++                               backgroundColor: "hsl(198.5, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(198.5, 70%, 55%)"
+-                               background-color: "rgb(60, 171, 221)"
+-                               box-shadow: "rgb(60, 171, 221) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:3.2, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "91.2914926749384%"
+-                               left: "91.2915%"
++                               top: "55.320715306863%"
+-                               top: "55.3207%"
++                               backgroundColor: "hsl(232, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(232, 70%, 55%)"
+-                               background-color: "rgb(60, 81, 221)"
+-                               box-shadow: "rgb(60, 81, 221) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:2.3, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "59.19158976104133%"
+-                               left: "59.1916%"
++                               top: "43.62156865383017%"
+-                               top: "43.6216%"
++                               backgroundColor: "hsl(233, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(233, 70%, 55%)"
+-                               background-color: "rgb(60, 79, 221)"
+-                               box-shadow: "rgb(60, 79, 221) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div>
+                          <motion.div animate={{opacity:[...]}} transition={{duration:3.2, ...}} ...>
+                            <div
+                              className="absolute w-1 h-1 rounded-full"
+                              style={{
++                               left: "71.43518571637532%"
+-                               left: "71.4352%"
++                               top: "43.63274660509907%"
+-                               top: "43.6327%"
++                               backgroundColor: "hsl(239.5, 70%, 55%)"
++                               boxShadow: "0 0 4px hsl(239.5, 70%, 55%)"
+-                               background-color: "rgb(60, 61, 221)"
+-                               box-shadow: "rgb(60, 61, 221) 0px 0px 4px"
+                              }}
+                              ref={function useMotionRef.useCallback}
+                            >
+                          ...
+                      ...
+              ...
+          ...
+
+[00:07:22.242] Server  LOG     ✓ Compiled in 128ms
+[00:07:24.207] Server  LOG     ✓ Compiled in 84ms
