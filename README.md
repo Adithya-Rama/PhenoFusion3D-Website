@@ -56,12 +56,12 @@ src/
 ### Prerequisites
 
 - **Node.js** 18.x or later  
-- **npm** (or yarn / pnpm)
+- **pnpm** (recommended) — install via `corepack enable` or `npm install -g pnpm`
 
 ### Install
 
 ```bash
-npm install
+pnpm install
 ```
 
 ### Development
@@ -69,7 +69,7 @@ npm install
 Run the dev server (default: [http://localhost:3000](http://localhost:3000)):
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 ### Build
@@ -77,7 +77,7 @@ npm run dev
 Static export (e.g. for GitHub Pages):
 
 ```bash
-npm run build
+pnpm build
 ```
 
 Output is in the `out/` directory. To preview it locally:
@@ -89,7 +89,7 @@ npx serve out
 ### Lint
 
 ```bash
-npm run lint
+pnpm lint
 ```
 
 ---
